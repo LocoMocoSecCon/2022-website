@@ -111,35 +111,35 @@
 }
 
 .swe-navbar {
-  background-color: white;
+  background-color: white !important;
 }
 
 .swe-navbar-wrap a {
-  color: #272325;
-  font-family: Oswald, "Montserrat", "Roboto", sans-serif;
-  text-transform: uppercase;
+  color: #272325 !important;
+  font-family: Oswald, "Montserrat", "Roboto", sans-serif !important;
+  text-transform: uppercase !important;
 }
 
 .swe-hamburger-menu-icon-container svg {
-  fill: #272325;
-  stroke: #272325;
+  fill: #272325 !important;
+  stroke: #272325 !important;
 }
 
 .swe-hamburger-menu-icon-container,
 .swe-hamburger-menu-link-box {
-  border: none;
+  border: none !important;
 }
 
 .swe-hamburger-menu-body-content .container,
 .swe-hamburger-menu-links {
-  padding: 0px;
+  padding: 0px !important;
 }
 
 .swe-navbar,
 .swe-hamburger-menu-bar-wrap {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  z-index: 3;
-  width: 100%;
+  overflow: hidden !important;
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 3 !important;
+  width: 100% !important;
 }
