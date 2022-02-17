@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+:root {
+  /* --background-color: #2196f3; */
+  --water-color: #2196f3;
+  --alt-bkg-color: #badbef;
+  --swe-color-primary: #fff;
+  --swe-color-light: #222;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: url('sunset.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-origin: content-box;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: table;
 }
 
-.App-link {
-  color: #61dafb;
+.gradient-overlay {
+  background-color: transparent;
+  opacity: 0.3;
+  background-image: linear-gradient(135deg, #191919 25%, transparent 25%), linear-gradient(225deg, #191919 25%, transparent 25%), linear-gradient(45deg, #191919 25%, transparent 25%), linear-gradient(315deg, #191919 25%, #e5e5f7 25%);
+  background-position: 4px 0, 4px 0, 0 0, 0 0;
+  background-size: 4px 4px;
+  background-repeat: repeat;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  background-attachment: fixed;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.content {
+  padding-top: 66px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+  position: relative;
+  z-index: 2;
+  overflow: auto !important;
+}
+
+.page {
+  position: absolute;
+  z-index: 2;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
   }
 }

@@ -1,0 +1,145 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 100;
+  width: 100%;
+  display: flex;
+  padding: 25px;
+  height: 60px;
+  background-color: var(--background-color);
+  z-index: 7;
+}
+
+.navbar-logo {
+  margin-top: -15px;
+  margin-left: -4px;
+  position: fixed;
+}
+
+.nav-dates {
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-weight: 400;
+  font-family: Oswald, "Montserrat", "Roboto", sans-serif;
+}
+
+.secondary-nav {
+  height: 30px;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: var(--background-color);
+  margin-top: 60px;
+  z-index: 6;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-transform: uppercase;
+  font-family: Oswald, "Montserrat", "Roboto", sans-serif;
+  font-weight: 400;
+  z-index: 6;
+}
+
+.nav-menu {
+  padding-top: 5px;
+  z-index: 6;
+}
+
+.nav-small {
+  display: block;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+  height: 60px;
+  padding-top: 15px;
+  padding-left: 12px;
+  z-index: 99;
+  text-align: left;
+  line-height: 40px;
+}
+
+.nav-small .nav-links {
+  display: block;
+  margin-left: -12px;
+  margin-top: -3px;
+  text-align: center;
+  background-color: #e3e3e3;
+}
+
+.nav-small a {
+  display: block;
+  position: relative;
+  box-sizing: content-box;
+  zoom: 1.5;
+  margin: 5px;
+}
+
+@media only screen and (min-width: 992px) {
+  div.nav-small {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+    margin-left: 50px;
+    width: 80%;
+    background-color: transparent !important;
+  }
+  .container {
+    padding: 0px;
+    margin: 0px;
+    width: 60%;
+    left: 0;
+  }
+  .toggle-group {
+    padding: 0px;
+    margin: 0px;
+    width: 30%;
+  }
+  .secondary-nav {
+    height: 60px;
+    margin: 0px;
+  }
+  .backdrop {
+    padding: 5px !important;
+  }
+}
+
+.swe-navbar {
+  background-color: white;
+}
+
+.swe-navbar-wrap a {
+  color: #272325;
+  font-family: Oswald, "Montserrat", "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.swe-hamburger-menu-icon-container svg {
+  fill: #272325;
+  stroke: #272325;
+}
+
+.swe-hamburger-menu-icon-container,
+.swe-hamburger-menu-link-box {
+  border: none;
+}
+
+.swe-hamburger-menu-body-content .container,
+.swe-hamburger-menu-links {
+  padding: 0px;
+}
+
+.swe-navbar,
+.swe-hamburger-menu-bar-wrap {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+}

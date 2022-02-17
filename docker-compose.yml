@@ -1,0 +1,16 @@
+version: "2"
+services:
+  node:
+    image: "node:16"
+    container_name: "locomoco"
+    user: "node"
+    working_dir: /home/app/
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/home/app/
+    expose:
+      - "3000"
+    ports:
+      - "3000:3000"
+    command: "npm run start"

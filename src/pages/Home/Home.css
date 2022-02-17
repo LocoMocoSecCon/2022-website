@@ -1,0 +1,107 @@
+.home-page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.hero-logo {
+  min-width: 300px;
+  max-width: 400px;
+  max-height: 400px;
+  ;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+.left,
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.left img {
+  width: 100%;
+}
+
+.sizzle-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+  ;
+}
+
+.sizzle-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: -1px;
+  color: #000;
+  text-transform: uppercase;
+  font-family: Oswald, "Montserrat", "Roboto", sans-serif;
+}
+
+.sizzle-sub-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sizzle-text {
+  font-size: 1em;
+  font-family: sans-serif;
+  color: #000;
+}
+
+.sizzle-bullet-item {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0px 5px;
+}
+
+.sizzle-icon {
+  min-width: 80px;
+  max-width: 80px;
+  display: flex;
+}
+
+.sizzle-icon img {
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 100%;
+}
+
+.sizzle-bullet {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.sizzle-bullet-title {
+  font-weight: 900;
+}
+
+.sizzle-bullet-desc {
+  font-size: 12px;
+}
+
+.sizzle-button-area {
+  padding-top: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
