@@ -69,15 +69,33 @@ body {
   z-index: 2;
 }
 
+@media (min-width: 200px) {
+  .container {
+    max-width: 360px;
+  }
+  .sizzle-icon {
+    display: none;
+  }
+  .nav-menu {
+    min-width: 100vw;
+  }
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+  }
+  .sizzle-icon {
+    display: block;
   }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
+  }
+  .nav-menu {
+    min-width: 768px;
   }
 }
 

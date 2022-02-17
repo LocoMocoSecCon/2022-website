@@ -25,7 +25,7 @@ export default function Home() {
           <div className='sizzle-sub-title'>Hawaii's Premier Product Security Conference</div>
           <div className='sizzle-text'>
             <p>
-            Join us in the beautiful city of Honolulu in Oahu, Hawaii for the LocoMocoSec Product Security Conference.
+            Join us from June 27-30th in the beautiful city of Honolulu in Oahu, Hawaii for the Loco Moco Product Security Conference.
             </p>
 
 

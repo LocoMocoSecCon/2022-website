@@ -3,6 +3,7 @@ import logo from "../../static/logos/loco-moco-horizontal.png";
 
 import NavBar from 'responsive-react-js-navbar';
 import "./NavBar.css";
+import SecondaryNav from "./SecondaryNav";
 
 export default class NavBar2 extends Component {
 	static displayName = "NavBar";
@@ -36,6 +37,7 @@ export default class NavBar2 extends Component {
           logoHref='/'
           links={links}
         />
+        <SecondaryNav/>
       </>
 
 
