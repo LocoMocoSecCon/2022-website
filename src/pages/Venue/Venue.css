@@ -1,0 +1,78 @@
+.venue-page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.venue {
+  width: 100%;
+}
+
+.venue-hotel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.venue-title {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Oswald, "Montserrat", "Roboto", sans-serif;
+  width: 100%;
+  text-align: center;
+  text-shadow: 2px 2px 8px #fff;
+}
+
+.venue-hotel-info {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.venue-hotel-info-image {
+  border-radius: 50%;
+  width: var(--hotel-dist);
+  z-index: 7;
+  position: relative;
+}
+
+.venue-hotel-info-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: -50px;
+  background-color: #fff;
+  height: var(--hotel-dist);
+  justify-content: center;
+  width: 100%;
+}
+
+.venue-hotel-title {
+  font-size: 0.9rem;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Oswald, "Montserrat", "Roboto", sans-serif;
+}
+
+.venue-hotel-address,
+.venue-hotel-phone {
+  font-size: .75em;
+  color: #272325;
+}
+
+.venue-hotel-block {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.venue-block {
+  display: flex;
+  flex-direction: column !important;
+}

@@ -5,6 +5,7 @@
   --alt-bkg-color: #badbef;
   --swe-color-primary: #fff;
   --swe-color-light: #222;
+  --hotel-dist: 6rem;
 }
 
 .app {
@@ -79,6 +80,12 @@ body {
   .nav-menu {
     min-width: 100vw;
   }
+  .venue-hotel-info-right {
+    padding: 0px 20px 0px 3em;
+  }
+  .venue-title {
+    font-size: 1.5em;
+  }
 }
 
 @media (min-width: 576px) {
@@ -88,6 +95,9 @@ body {
   .sizzle-icon {
     display: block;
   }
+  .venue-title {
+    font-size: 2em;
+  }
 }
 
 @media (min-width: 768px) {
@@ -96,6 +106,12 @@ body {
   }
   .nav-menu {
     min-width: 768px;
+  }
+  .venue-hotel-info-right {
+    padding: 0px 50px 0px 4em;
+  }
+  .venue-title {
+    font-size: 3em;
   }
 }
 

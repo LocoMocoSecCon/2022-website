@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.c97230d5.css",
-    "main.js": "/static/js/main.e401323e.js",
+    "main.css": "/static/css/main.cd54711b.css",
+    "main.js": "/static/js/main.67a6c496.js",
     "static/js/787.276297fb.chunk.js": "/static/js/787.276297fb.chunk.js",
     "static/media/sunset.jpeg": "/static/media/sunset.7078119e0190ede00edd.jpeg",
     "static/media/loco-moco-large-removebg-preview.png": "/static/media/loco-moco-large-removebg-preview.c5e75eb743ee2947020a.png",
     "static/media/loco-moco-horizontal.png": "/static/media/loco-moco-horizontal.a9a016f0292b149f80a4.png",
+    "static/media/marriott.jpeg": "/static/media/marriott.ee7c87bfecaa56369737.jpeg",
     "static/media/sun.png": "/static/media/sun.f794832ad72b90c61eb7.png",
     "static/media/speaker.png": "/static/media/speaker.f2b289f7d555ff049aa3.png",
     "static/media/training.png": "/static/media/training.8cd9fa9e972dccad74e6.png",
     "static/media/pig.png": "/static/media/pig.b259facc2a6d0760cb03.png",
     "index.html": "/index.html",
-    "main.c97230d5.css.map": "/static/css/main.c97230d5.css.map",
-    "main.e401323e.js.map": "/static/js/main.e401323e.js.map",
+    "main.cd54711b.css.map": "/static/css/main.cd54711b.css.map",
+    "main.67a6c496.js.map": "/static/js/main.67a6c496.js.map",
     "787.276297fb.chunk.js.map": "/static/js/787.276297fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c97230d5.css",
-    "static/js/main.e401323e.js"
+    "static/css/main.cd54711b.css",
+    "static/js/main.67a6c496.js"
   ]
 }
