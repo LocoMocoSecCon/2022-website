@@ -59,7 +59,7 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 50px;
+  padding-top: calc(var(--navbar-height));
   position: relative;
   z-index: 2;
   overflow: auto !important;

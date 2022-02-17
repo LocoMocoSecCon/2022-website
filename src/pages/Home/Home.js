@@ -65,7 +65,7 @@ export default function Home() {
                       Food
                     </div>
                     <div className='sizzle-bullet-desc'>
-                      Please come try some authentic Hawaiian food. Each year we make it a habit to introduce new and exciting Hawaiian dishes to our attendees. Come for the food, stay for the conversation and the company.
+                      Each year we roll out the red carpet and provide excellent meals to feed hungry attendees. Come for the food, stay for the conversation and the company.
                     </div>
                   </div>
                 </div>
