@@ -51,7 +51,7 @@ body {
 }
 
 .content {
-  padding-top: 66px;
+  padding-top: calc(var(--navbar-height));
 }
 
 .container {
@@ -59,7 +59,7 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: calc(var(--navbar-height));
+  padding-top: 30px;
   position: relative;
   z-index: 2;
   overflow: auto !important;
@@ -68,6 +68,47 @@ body {
 .page {
   position: absolute;
   z-index: 2;
+}
+
+.sub-page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.page-layout {
+  width: 100%;
+}
+
+.sub-page-title {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Oswald, "Montserrat", "Roboto", sans-serif;
+  width: 100%;
+  text-align: center;
+  text-shadow: 2px 2px 8px #fff;
+}
+
+.transparent-block {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.transparent-block-container {
+  margin-bottom: 20px;
+}
+
+.transparent-block-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #000;
 }
 
 @media (min-width: 200px) {
@@ -83,7 +124,7 @@ body {
   .venue-hotel-info-right {
     padding: 0px 20px 0px 3em;
   }
-  .venue-title {
+  .sub-page-title {
     font-size: 1.5em;
   }
 }
@@ -95,7 +136,7 @@ body {
   .sizzle-icon {
     display: block;
   }
-  .venue-title {
+  .sub-page-title {
     font-size: 2em;
   }
 }
@@ -110,7 +151,7 @@ body {
   .venue-hotel-info-right {
     padding: 0px 50px 0px 4em;
   }
-  .venue-title {
+  .sub-page-title {
     font-size: 3em;
   }
 }

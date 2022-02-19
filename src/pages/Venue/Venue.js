@@ -7,10 +7,10 @@ import PalmButton from '../../components/PalmButton/PalmButton';
 
 export default function Venue() {
   return (
-    <div className='venue-page'>
+    <div className='sub-page'>
 
-      <div className='venue'>
-        <h1 className='venue-title'>Hotel & Location Information</h1>
+      <div className='page-layout'>
+        <h1 className='sub-page-title'>Hotel & Location Information</h1>
 
         <div className='venue-hotel'>
           <div className='col left venue-block'>
@@ -29,12 +29,12 @@ export default function Venue() {
               </div>
             </a>    
           
-            <div className='venue-hotel-block'>
-              <div className='venue-hotel-block-title'>Book Today!</div>
+            <div className='transparent-block'>
+              <div className='transparent-block-title'>Book Today!</div>
 
-              <div className='venue-hotel-block-sub-title'>We have a special Loco Moco Security Conference room block!</div>
-              <div className='venue-hotel-block-text'>The URL is <a href='/url' target='_blank' rel='noopener noreferrer'>URL</a>.</div>
-              <div className='venue-hotel-block-text'>When making phone reservations, please use the Hotel Code: <b>CODE</b> and the Group Code: <b>GROUP</b>.</div>
+              <div className='transparent-block-sub-title'>We have a special Loco Moco Security Conference room block!</div>
+              <div className='transparent-block-text'>The URL is <a href='/url' target='_blank' rel='noopener noreferrer'>URL</a>.</div>
+              <div className='transparent-block-text'>When making phone reservations, please use the Hotel Code: <b>CODE</b> and the Group Code: <b>GROUP</b>.</div>
 
 
               <div className='sizzle-button-area'>

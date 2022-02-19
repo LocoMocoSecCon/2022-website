@@ -20,13 +20,28 @@ export default class NavBar2 extends Component {
         "background": false,
     },
     {
+        "href": "https://sessionize.com/locomocosec-2021/?e=4964e7",
+        "label": "CFP",
+        "background": false,
+    },
+    {
         "href": "/venue",
         "label": "Venue",
         "background": false,
     },
     {
+        "href": "/sponsors",
+        "label": "Sponsors",
+        "background": false,
+    },
+    {
         "href": "https://hawaiicovid19.com/travel/",
         "label": "Safety",
+        "background": false,
+    },
+    {
+        "href": "/about",
+        "label": "About",
         "background": false,
     }]
     
