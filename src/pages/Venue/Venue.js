@@ -23,7 +23,7 @@ export default function Venue() {
               </div>
 
               <div className='venue-hotel-info-right'>
-                <div className='venue-hotel-title'>Waikiki Beach Marriott Resort & Spa</div>
+                <div className='venue-hotel-title'>Waikīkī Beach Marriott Resort & Spa</div>
                 <div className='venue-hotel-address'>2552 Kalakaua Ave, Honolulu, HI 96815</div>
                 <div className='venue-hotel-phone'>(808) 922-6611</div>
               </div>
@@ -32,7 +32,7 @@ export default function Venue() {
             <div className='transparent-block'>
               <div className='transparent-block-title'>Book Today!</div>
 
-              <div className='transparent-block-sub-title'>We have a special Loco Moco Security Conference room block!</div>
+              <div className='transparent-block-sub-title'>We have a special Loco Moco Product Security Conference room block!</div>
               <div className='transparent-block-text'>The URL is <a href='/url' target='_blank' rel='noopener noreferrer'>URL</a>.</div>
               <div className='transparent-block-text'>When making phone reservations, please use the Hotel Code: <b>CODE</b> and the Group Code: <b>GROUP</b>.</div>
 

@@ -22,12 +22,11 @@ export default function Home() {
       <div className='col right'>
         <div className='sizzle-box'>
           <div className='sizzle-title'>Loco Moco</div>
-          <div className='sizzle-sub-title'>Hawaii's Premier Product Security Conference</div>
+          <div className='sizzle-sub-title'>The Premier Product Security Conference</div>
           <div className='sizzle-text'>
             <p>
-            Join us from June 27-30th in the beautiful city of Honolulu in Oahu, Hawaii for the Loco Moco Product Security Conference.
+            Join us from June 27-30<sup>th</sup> in the beautiful Waikīkī on O'ahu, Hawai'i for the Loco Moco Product Security Conference.
             </p>
-
 
             <div className="sizzle-bullets">
                 <div className='sizzle-bullet-item'>
@@ -39,7 +38,7 @@ export default function Home() {
                       Top-Notch Speakers
                     </div>
                     <div className='sizzle-bullet-desc'>
-                      We have some of the best product security speakers in the industry come to Loco Moco. In addition to the well known, who's who in the application security industry, our lineup also often has rising stars in the infosec space.
+                      We have some of the best product security speakers in the industry come to LocoMocoSec. In addition to the well known, who's who in the application security industry, our lineup also often has rising stars in the infosec space.
                     </div>
                   </div>
                 </div>
@@ -78,7 +77,7 @@ export default function Home() {
                       Sun
                     </div>
                     <div className='sizzle-bullet-desc'>
-                      You aren't the only one who has a little cabin fever! After being stuck indoors for almost two years, what could be a better place to travel to than Oahu?
+                      You aren't the only one who has a little cabin fever! After being stuck indoors for almost two years, what could be a better place to travel to than O'ahu?
                     </div>
                   </div>
                 </div>
