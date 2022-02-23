@@ -12,10 +12,23 @@ import training from '../../static/icons/training.png';
 import speaker from '../../static/icons/speaker.png';
 
 export default function Home() {
+  var exampleCallback = function() {
+    console.log('Order complete!');
+  };
+
+  window.EBWidgets.createWidget({
+    widgetType: 'checkout',
+    eventId: '268236260877',
+    modal: true,
+    modalTriggerElementId: 'eventbrite-widget-modal-trigger-268236260877',
+    onOrderComplete: exampleCallback
+  });
+
   return (
     <div className='home-page'>
 
       <div className='col left'>
+      {/* <button id="eventbrite-widget-modal-trigger-268236260877" type="button">Buy Tickets</button> */}
         <img src={logo} className='hero-logo' alt='locomocosec logo'/>
       </div>
 
@@ -25,7 +38,7 @@ export default function Home() {
           <div className='sizzle-sub-title'>The Premier Product Security Conference</div>
           <div className='sizzle-text'>
             <p>
-            Join us from June 27-30<sup>th</sup> in the beautiful Waikīkī on O'ahu, Hawai'i for the Loco Moco Product Security Conference.
+            Join us from June 27-30<sup>th</sup> in the beautiful Waikīkī on Oʻahu, Hawaiʻi for the Loco Moco Product Security Conference.
             </p>
 
             <div className="sizzle-bullets">
@@ -77,7 +90,7 @@ export default function Home() {
                       Sun
                     </div>
                     <div className='sizzle-bullet-desc'>
-                      You aren't the only one who has a little cabin fever! After being stuck indoors for almost two years, what could be a better place to travel to than O'ahu?
+                      You aren't the only one who has a little cabin fever! After being stuck indoors for almost two years, what could be a better place to travel to than Oʻahu?
                     </div>
                   </div>
                 </div>

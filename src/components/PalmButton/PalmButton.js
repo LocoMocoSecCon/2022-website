@@ -12,8 +12,10 @@ class PalmButton extends Component {
   render() {
 
     return (
-      <a className="tropical-btn-anchor"
-        href={this.props.link} target="_blank" rel="noopener noreferrer">
+      <div className="tropical-btn-anchor"
+        id="eventbrite-widget-modal-trigger-268236260877" 
+        // href={this.props.link} 
+        target="_blank" rel="noopener noreferrer">
       {/* Inspired by Suzanne Aitchison */}
       {/* https://codepen.io/aitchiss/pen/yLOORpZ */}
         <div className="tropical-btn">
@@ -28,7 +30,7 @@ class PalmButton extends Component {
             <div className="reg-text">{this.props.wording}</div>
           </div>     
         </div>
-      </a>
+      </div>
     )
   }
 }
