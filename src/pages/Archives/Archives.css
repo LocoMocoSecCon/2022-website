@@ -1,0 +1,14 @@
+.archive-link-container {
+  margin-bottom: 20px;
+}
+
+.archive-link a {
+  text-decoration: none;
+  color: #272325;
+  font-size: 2em;
+}
+
+.archive-link a:hover {
+  cursor: pointer;
+  color: #ea7560
+}

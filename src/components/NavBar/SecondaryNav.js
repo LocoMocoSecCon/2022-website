@@ -12,6 +12,7 @@ export default class SecondaryNav extends Component {
 				<div className="swe-container nav-menu">
           <div className='secondary-nav-dates'>June 27-30, 2022</div>
           <div className='secondary-nav-icons'>
+            <a href='/archives' className='secondary-nav-icon secondary-nav-archive'>Archives</a>
             <a href='https://twitter.com/locomocosec'
               target='_blank'
               rel='noopener noreferrer'

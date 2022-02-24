@@ -232,6 +232,19 @@ MOBILE
   margin-right: 20px;
 }
 
+.secondary-nav-archive {
+  color: #272325;
+  font-size: .75em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.secondary-nav-archive:hover {
+  cursor: pointer;
+  color: #ea7560
+}
+
 .secondary-nav-dates,
 .secondary-nav-icons {
   width: 50%;

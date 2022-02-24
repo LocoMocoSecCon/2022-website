@@ -7,6 +7,7 @@ import Venue from './pages/Venue/Venue';
 import Sponsor from './pages/Sponsor/Sponsor';
 import About from './pages/About/About';
 import Training from './pages/Training/Training';
+import Archives from './pages/Archives/Archives';
 
 // import components
 import NavBar from './components/NavBar/NavBar';
@@ -97,6 +98,7 @@ function App() {
                   <Route path='/about' element={<About/>} />
                   <Route path='/venue' element={<Venue/>} />
                   <Route path='/training' element={<Training/>} />
+                  <Route path='/archives' element={<Archives/>} />
                 </Routes>
               </BrowserRouter>
             </div>
