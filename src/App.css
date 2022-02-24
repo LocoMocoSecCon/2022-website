@@ -107,8 +107,14 @@ body {
 
 .transparent-block-title {
   font-size: 1.2em;
-  font-weight: bold;
+  font-weight: bolder;
   color: #000;
+}
+
+.transparent-block-sub-title {
+  font-size: 1em;
+  font-weight: bold;
+  color: #ea7560;
 }
 
 @media (min-width: 200px) {

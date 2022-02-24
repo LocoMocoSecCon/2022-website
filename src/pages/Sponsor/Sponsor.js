@@ -17,7 +17,7 @@ export default function Sponsor() {
 
           <div className='transparent-block-container'>
             <div className='transparent-block-title'>Sponsorships are now available!</div>
-            <div className='transparent-block-text'>For details, sponsorship options, and more, please contact <a href='mailto:sponsors@locomocosec.com?Subject=Sponsorship' target='_top'>sponsors@locomocosec.com</a>.</div>
+            <div className='transparent-block-text'>Please contact us at <a href='mailto:sponsors@locomocosec.com?Subject=Sponsorship' target='_top'>sponsors@locomocosec.com</a> to discuss your strategic partnership with LocoMocoSec!</div>
           </div>
 
         </div>

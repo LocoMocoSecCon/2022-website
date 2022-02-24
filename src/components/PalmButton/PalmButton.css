@@ -13,9 +13,9 @@
   text-transform: uppercase;
   display: flex;
   justify-content: center;
-  width: 300px;
   padding-top: 12px;
   padding-left: 15px;
+  margin-left: 150px;
 }
 
 .tropical-btn-anchor {

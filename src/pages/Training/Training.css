@@ -1,0 +1,23 @@
+.trainer-block {
+  padding: 15px 0px;
+}
+
+.trainer-instructor {
+  font-size: 1em;
+  font-weight: bold;
+  color: #ea7560;
+}
+
+.trainer-pic {
+  border-radius: 50%;
+  filter: grayscale(100%);
+  max-width: 125px;
+  max-height: 125px;
+  float: left;
+  margin-right: 30px;
+}
+
+.trainer-para {
+  text-align: justify;
+  word-break: break-word;
+}

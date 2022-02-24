@@ -6,24 +6,89 @@ import Home from './pages/Home/Home';
 import Venue from './pages/Venue/Venue';
 import Sponsor from './pages/Sponsor/Sponsor';
 import About from './pages/About/About';
+import Training from './pages/Training/Training';
 
 // import components
-import NavBar2 from './components/NavBar/NavBar';
+import NavBar from './components/NavBar/NavBar';
 
-// import css
+// import assets
+import logo from "./loco-moco-horizontal.png";
 import './App.css';
 
 
 function App() {
+  var exampleCallback = function() {
+    console.log('Order complete!');
+  };
+
+  window.EBWidgets.createWidget({
+    widgetType: 'checkout',
+    eventId: '268236260877',
+    modal: true,
+    modalTriggerElementId: 'eventbrite-widget-modal-trigger-268236260877',
+    onOrderComplete: exampleCallback
+  });
+
+
+  const links = [{
+    "href": "/",
+    "label": "Home",
+    "class": "nav-div-hover",
+    "background": false,
+  },
+  {
+      "id": "eventbrite-widget-modal-trigger-268236260877",
+      "class": "nav-div-hover",
+      "label": "Register",
+      "background": false,
+  },
+  {
+      "href": "https://sessionize.com/locomocosec-2022/",
+      "label": "CFP",
+      "class": "nav-div-hover",
+      "background": false,
+  },
+  {
+      "href": "/venue",
+      "label": "Venue",
+      "class": "nav-div-hover",
+      "background": false,
+  },
+  {
+      "href": "/training",
+      "label": "Training",
+      "class": "nav-div-hover",
+      "background": false,
+  },
+  {
+      "href": "/sponsors",
+      "label": "Sponsors",
+      "class": "nav-div-hover",
+      "background": false,
+  },
+  {
+      "href": "https://hawaiicovid19.com/travel/",
+      "label": "Safety",
+      "class": "nav-div-hover",
+      "background": false,
+  },
+  {
+      "href": "/about",
+      "label": "About",
+      "class": "nav-div-hover",
+      "background": false,
+  }]
+  
+
   return (
     <>
-      <NavBar2 />
+      <NavBar logo={logo}
+        links={links} 
+        logoHref='/'
+      />
       <div className='app'>
         <div className='gradient-overlay'></div>
-        
-
         <div className='content'>
-
             <div className='container'>
               <BrowserRouter>
                 <Routes>
@@ -31,11 +96,10 @@ function App() {
                   <Route path='/sponsors' element={<Sponsor/>} />
                   <Route path='/about' element={<About/>} />
                   <Route path='/venue' element={<Venue/>} />
+                  <Route path='/training' element={<Training/>} />
                 </Routes>
               </BrowserRouter>
-
             </div>
-
           </div>
       </div>
     </>

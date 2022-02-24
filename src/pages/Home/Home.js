@@ -12,18 +12,6 @@ import training from '../../static/icons/training.png';
 import speaker from '../../static/icons/speaker.png';
 
 export default function Home() {
-  var exampleCallback = function() {
-    console.log('Order complete!');
-  };
-
-  window.EBWidgets.createWidget({
-    widgetType: 'checkout',
-    eventId: '268236260877',
-    modal: true,
-    modalTriggerElementId: 'eventbrite-widget-modal-trigger-268236260877',
-    onOrderComplete: exampleCallback
-  });
-
   return (
     <div className='home-page'>
 
@@ -35,7 +23,7 @@ export default function Home() {
       <div className='col right'>
         <div className='sizzle-box'>
           <div className='sizzle-title'>Loco Moco</div>
-          <div className='sizzle-sub-title'>The Premier Product Security Conference</div>
+          <div className='sizzle-sub-title'>The Premier Hawaiʻin Product Security Conference</div>
           <div className='sizzle-text'>
             <p>
             Join us from June 27-30<sup>th</sup> in the beautiful Waikīkī on Oʻahu, Hawaiʻi for the Loco Moco Product Security Conference.
