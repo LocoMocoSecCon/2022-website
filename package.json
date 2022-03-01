@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf docs && react-scripts build && mv build docs && echo 'cve.wiki' >> ./docs/CNAME",
+    "build": "rm -rf docs && react-scripts build && mv build docs && echo 'locomocosec.com' >> ./docs/CNAME",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
