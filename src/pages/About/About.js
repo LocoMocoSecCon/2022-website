@@ -67,24 +67,12 @@ export default function About() {
                   <div className='faq-text faq-text-a'><span className='a'>A</span>Casual</div>
                 </li>
                 <li className='faq-li'>
-                  <div className='faq-text faq-text-q'><span className='q'>Q</span>What is the expected weather?</div>
-                  <div className='faq-text faq-text-a'><span className='a'>A</span>June Weather in Honolulu Hawaii, United States. Account for humidity. Daily high temperatures are around 85°F, rarely falling below 82°F or exceeding 87°F. Daily low temperatures are around 74°F, rarely falling below 70°F or exceeding 77°F. For reference, on August 23, the hottest day of the year, temperatures in Honolulu typically range from 76°F to 87°F, while on January 28, the coldest day of the year, they range from 68°F to 79°F.</div>
-                </li>
-                <li className='faq-li'>
-                  <div className='faq-text faq-text-q'><span className='q'>Q</span>What is the time zone in Hawaii? </div>
-                  <div className='faq-text faq-text-a'><span className='a'>A</span>Hawaii observes Hawaii Standard Time (HST) all year. There are no Daylight Saving Time clock changes.</div>
-                </li>
-                <li className='faq-li'>
                   <div className='faq-text faq-text-q'><span className='q'>Q</span>Do I need to bring any special items?</div>
                   <div className='faq-text faq-text-a'><span className='a'>A</span>Sunscreen,your bathing suit / swim trunks! Don't forget lots and lots of business cards.</div>
                 </li>
                 <li className='faq-li'>
                   <div className='faq-text faq-text-q'><span className='q'>Q</span>What do I need to have before I go to the event?</div>
-                  <div className='faq-text faq-text-a'><span className='a'>A</span>Registration Ticket. Anyone traveling to Hawaill will need to register with Safe Travels Hawaiʻi</div>
-                </li>
-                <li className='faq-li'>
-                  <div className='faq-text faq-text-q'><span className='q'>Q</span>What food will be served at the event?</div>
-                  <div className='faq-text faq-text-a'><span className='a'>A</span>June 27 – 28, 2022: Training Workshop: Morning and Afternoon Coffee, beverage and snack break will be offered. Breakfast, Lunch and Dinner will be on your own. June 28 Evening Welcome Reception: Light Food and Beverages will be available. June 29 - 30, 2022 – Conference: Continental Breakfast, Afternoon Coffee, beverage and snack break and Lunch. Food and Beverage stations include protective sneeze guards and servicing utensils will be rotated frequently.</div>
+                  <div className='faq-text faq-text-a'><span className='a'>A</span>Registration Ticket. Anyone traveling to Hawaill will need to register with Safe Travels Hawaiʻi.</div>
                 </li>
                 <li className='faq-li'>
                   <div className='faq-text faq-text-q'><span className='q'>Q</span>How do I let you know about my special dietary requirements?</div>
@@ -113,10 +101,6 @@ export default function About() {
                 <li className='faq-li'>
                   <div className='faq-text faq-text-q'><span className='q'>Q</span>If I have questions, who can I contact?</div>
                   <div className='faq-text faq-text-a'><span className='a'>A</span>info@locomocosec.com</div>
-                </li>
-                <li className='faq-li'>
-                  <div className='faq-text faq-text-q'><span className='q'>Q</span>How do I network with other attendees?</div>
-                  <div className='faq-text faq-text-a'><span className='a'>A</span>You will have several different opportunities to network with other attendees. We have structured our event to provide you with ample opportunities to get to know one another. I.e. Welcome Reception, the meeting room set up and sponsorship booths are all in one easy location, you will also have breaks, meals and the group off-site event to connect! Please note that staying at the hotel will increase your opportunity to network and enjoy downtime together.</div>
                 </li>
                 <li className='faq-li'>
                   <div className='faq-text faq-text-q'><span className='q'>Q</span>Who founded LocoMocoSec?</div>

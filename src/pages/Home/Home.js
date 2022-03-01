@@ -28,9 +28,9 @@ export default function Home() {
             <p>
             Join us in the beautiful Waikīkī on Oʻahu, Hawaiʻi for the Loco Moco Product Security Conference.
             <ul className='venue-bullets'>
-              <li><span className='venue-date'>June 27-28, 2022</span> · Training Workshops</li>
-              <li><span className='venue-date'>June 28, 2022</span> · Welcome Reception</li>
-              <li><span className='venue-date'>June 29-30, 2022</span> · Conference</li>
+              <li><span className='venue-date'>June 27-28</span> · Training Workshops</li>
+              <li><span className='venue-date'>June 28</span> · Welcome Reception</li>
+              <li><span className='venue-date'>June 29-30</span> · Conference</li>
             </ul>
             </p>
 
@@ -91,7 +91,7 @@ export default function Home() {
 
           </div>
           <div className='sizzle-button-area'>
-            <PalmButton wording='Register' link='https://www.eventbrite.com/e/loco-moco-product-security-conference-tickets-268236260877'/>
+            <PalmButton wording='Register' class='eventbrite-widget-modal-trigger-268236260877' link='https://www.eventbrite.com/e/loco-moco-product-security-conference-tickets-268236260877'/>
           </div>
         </div>
 

@@ -53,7 +53,7 @@ function App() {
   },
   {
       "href": "https://sessionize.com/locomocosec-2022/",
-      "label": "CFP",
+      "label": "CFS",
       "class": "nav-div-hover",
       "background": false,
   },

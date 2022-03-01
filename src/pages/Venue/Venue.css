@@ -92,9 +92,18 @@
 
 .venue-bullets {
   list-style-type: none;
+  padding: 0;
+  /* Remove padding */
+}
+
+.venue-bullets li {
+  display: flex;
+  flex-direction: row;
 }
 
 .venue-date {
   color: #ea7560;
-  width: 100px;
+  width: 90px;
+  text-align: right;
+  margin-right: 5px;
 }
