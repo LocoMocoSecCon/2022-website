@@ -11,37 +11,41 @@ export default function Agenda() {
 
         <div className='transparent-block'>
           <div className='transparent-block-container'>
-            <div className='transparent-block-title'>Monday, June 27, 2022 (Training Workshops)</div>
-            <div className='transparent-block-text'>Early Arrivals (throughout the Day)</div>
-            <div className='transparent-block-text'>Loco Moco Security Conference Registration Desk Open for Check in</div>
-            <div className='transparent-block-text'>2 Training Workshops</div>
+            <div className='transparent-block-title'>Monday, June 27, 2022</div>
+            <div className='agenda-day-header'>Training Workshops</div>
+            <li className='transparent-block-text'>Early Arrivals (throughout the Day)</li>
+            <li className='transparent-block-text'>Loco Moco Security Conference Hospitality / Registration Desk Open for Check in</li>
+            <li className='transparent-block-text'>2 Training Workshops</li>
           </div>
 
           <div className='transparent-block-container'>
-            <div className='transparent-block-title'>Tuesday, June 28, 2022 (Training Workshops)</div>
-            <div className='transparent-block-text'>Loco Moco Security Conference Registration Desk Open for Check in and sponsorship set up</div>
-            <div className='transparent-block-text'>2 Training Workshops</div>
-            <div className='transparent-block-text'>Main Attendee Arrivals (throughout the day)</div>
-            <div className='transparent-block-text'>Welcome Reception (at hotel)</div>
+            <div className='transparent-block-title'>Tuesday, June 28, 2022</div>
+            <div className='agenda-day-header'>Training Workshops</div>
+            <li className='transparent-block-text'>Loco Moco Security Conference Hospitality / Registration Desk Open for Check in and sponsorship set up</li>
+            <li className='transparent-block-text'>2 Training Workshops</li>
+            <li className='transparent-block-text'>Main Attendee Arrivals (throughout the day)</li>
+            <li className='transparent-block-text'>Welcome Reception (at hotel)</li>
           </div>
 
           <div className='transparent-block-container'>
-            <div className='transparent-block-title'>Wednesday, June 29, 2022 (Conference)</div>
-            <div className='transparent-block-text'>Continental Breakfast</div>
-            <div className='transparent-block-text'>Hospitality Desk / Registration</div>
-            <div className='transparent-block-text'>General Session (mid-morning – afternoon)</div>
-            <div className='transparent-block-text'>AM/PM Coffee Break</div>
-            <div className='transparent-block-text'>Lunch</div>
-            <div className='transparent-block-text'>Group Offsite Experience</div>
+            <div className='transparent-block-title'>Wednesday, June 29, 2022</div> 
+            <div className='agenda-day-header'>Conference</div>
+            <li className='transparent-block-text'>Continental Breakfast</li>
+            <li className='transparent-block-text'>Hospitality Desk / Registration</li>
+            <li className='transparent-block-text'>General Session (mid-morning – afternoon)</li>
+            <li className='transparent-block-text'>AM/PM Coffee Break</li>
+            <li className='transparent-block-text'>Lunch</li>
+            <li className='transparent-block-text'>Group Offsite Experience</li>
           </div>
 
           <div className='transparent-block-container'>
-            <div className='transparent-block-title'>Thursday, June 30, 2022 (Conference)</div>
-            <div className='transparent-block-text'>Continental Breakfast</div>
-            <div className='transparent-block-text'>General Session</div>
-            <div className='transparent-block-text'>AM/PM Coffee Break</div>
-            <div className='transparent-block-text'>Lunch</div>
-            <div className='transparent-block-text'>Conference Conclusion</div>
+            <div className='transparent-block-title'>Thursday, June 30, 2022</div>
+            <div className='agenda-day-header'>Conference</div>
+            <li className='transparent-block-text'>Continental Breakfast</li>
+            <li className='transparent-block-text'>General Session</li>
+            <li className='transparent-block-text'>AM/PM Coffee Break</li>
+            <li className='transparent-block-text'>Lunch</li>
+            <li className='transparent-block-text'>Conference Conclusion</li>
           </div>
 
         </div>

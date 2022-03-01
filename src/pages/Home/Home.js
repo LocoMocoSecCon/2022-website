@@ -29,7 +29,7 @@ export default function Home() {
             Join us in the beautiful Waikīkī on Oʻahu, Hawaiʻi for the Loco Moco Product Security Conference.
             <ul className='venue-bullets'>
               <li><span className='venue-date'>June 27-28, 2022</span> · Training Workshops</li>
-              <li><span className='venue-date'>June 28, 2022</span> · Conference Welcome Reception</li>
+              <li><span className='venue-date'>June 28, 2022</span> · Welcome Reception</li>
               <li><span className='venue-date'>June 29-30, 2022</span> · Conference</li>
             </ul>
             </p>
@@ -83,7 +83,7 @@ export default function Home() {
                       Sun
                     </div>
                     <div className='sizzle-bullet-desc'>
-                      You aren't the only one who has a little cabin fever! After being stuck indoors for almost two years, what could be a better place to travel to than Oʻahu?
+                      You aren't the only one who has a little cabin fever! After being stuck indoors for almost two years, what could be a better place to travel to than Honolulu?
                     </div>
                   </div>
                 </div>
