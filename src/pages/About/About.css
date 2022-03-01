@@ -1,0 +1,43 @@
+.faq {
+  list-style-type: none;
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+  /* Remove margins */
+}
+
+.faq-li {
+  padding-top: 10px;
+}
+
+.q,
+.a {
+  font-size: 1.5em;
+  margin-right: 10px;
+  padding: 5px 15px;
+  border-radius: 50%;
+}
+
+.q {
+  /* border: 1px solid #272325 */
+  background-color: #fff;
+}
+
+.a {
+  background-color: #ea7560;
+  color: #fff;
+  font-weight: bold;
+}
+
+.faq-text-q {
+  font-weight: bold;
+}
+
+.faq-text-a {
+  color: #ea7560;
+}
+
+.faq-text {
+  display: flex;
+  align-items: center;
+}

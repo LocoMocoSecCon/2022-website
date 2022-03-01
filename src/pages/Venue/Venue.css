@@ -13,6 +13,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .venue-title {
@@ -62,7 +63,38 @@
   color: #272325;
 }
 
+.venue-hotel-map {
+  margin-top: 30px;
+}
+
 .venue-block {
   display: flex;
   flex-direction: column !important;
+}
+
+.hotel-image {
+  background-image: url('https://s7d1.scene7.com/is/image/marriotts7prod/mc-hnlmc-queensbreak-21286:Classic-Hor?wid=2880&amp;fit=constrain');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-origin: content-box;
+  height: 300px;
+  width: 100vw;
+  overflow: hidden;
+  display: table;
+  margin-bottom: 30px;
+}
+
+.venue-layout {
+  flex-direction: column !important;
+  max-width: 800px;
+}
+
+.venue-bullets {
+  list-style-type: none;
+}
+
+.venue-date {
+  color: #ea7560;
+  width: 100px;
 }

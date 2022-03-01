@@ -26,7 +26,12 @@ export default function Home() {
           <div className='sizzle-sub-title'>The Premier Hawaiʻin Product Security Conference</div>
           <div className='sizzle-text'>
             <p>
-            Join us from June 27-30<sup>th</sup> in the beautiful Waikīkī on Oʻahu, Hawaiʻi for the Loco Moco Product Security Conference.
+            Join us in the beautiful Waikīkī on Oʻahu, Hawaiʻi for the Loco Moco Product Security Conference.
+            <ul className='venue-bullets'>
+              <li><span className='venue-date'>June 27-28, 2022</span> · Training Workshops</li>
+              <li><span className='venue-date'>June 28, 2022</span> · Conference Welcome Reception</li>
+              <li><span className='venue-date'>June 29-30, 2022</span> · Conference</li>
+            </ul>
             </p>
 
             <div className="sizzle-bullets">

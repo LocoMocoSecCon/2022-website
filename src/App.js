@@ -8,6 +8,8 @@ import Sponsor from './pages/Sponsor/Sponsor';
 import About from './pages/About/About';
 import Training from './pages/Training/Training';
 import Archives from './pages/Archives/Archives';
+import Agenda from './pages/Agenda/Agenda';
+import Safety from './pages/Safety/Safety';
 
 // import components
 import NavBar from './components/NavBar/NavBar';
@@ -44,6 +46,12 @@ function App() {
       "background": false,
   },
   {
+      "href": "/agenda",
+      "label": "Agenda",
+      "class": "nav-div-hover",
+      "background": false,
+  },
+  {
       "href": "https://sessionize.com/locomocosec-2022/",
       "label": "CFP",
       "class": "nav-div-hover",
@@ -68,7 +76,7 @@ function App() {
       "background": false,
   },
   {
-      "href": "https://hawaiicovid19.com/travel/",
+      "href": "/safety",
       "label": "Safety",
       "class": "nav-div-hover",
       "background": false,
@@ -95,10 +103,12 @@ function App() {
                 <Routes>
                   <Route path='/' element={<Home/>} />
                   <Route path='/sponsors' element={<Sponsor/>} />
+                  <Route path='/agenda' element={<Agenda/>} />
                   <Route path='/about' element={<About/>} />
                   <Route path='/venue' element={<Venue/>} />
                   <Route path='/training' element={<Training/>} />
                   <Route path='/archives' element={<Archives/>} />
+                  <Route path='/safety' element={<Safety/>} />
                 </Routes>
               </BrowserRouter>
             </div>
