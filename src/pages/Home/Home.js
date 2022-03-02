@@ -23,7 +23,7 @@ export default function Home() {
       <div className='col right'>
         <div className='sizzle-box'>
           <div className='sizzle-title'>Loco Moco</div>
-          <div className='sizzle-sub-title'>The Premier Hawaiʻin Product Security Conference</div>
+          <div className='sizzle-sub-title'>The Premier Product Security Conference in Hawaiʻi</div>
           <div className='sizzle-text'>
             <p>
             Join us in the beautiful Waikīkī on Oʻahu, Hawaiʻi for the Loco Moco Product Security Conference.
