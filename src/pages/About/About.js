@@ -68,7 +68,7 @@ export default function About() {
                 </li>
                 <li className='faq-li'>
                   <div className='faq-text faq-text-q'><span className='q'>Q</span>Do I need to bring any special items?</div>
-                  <div className='faq-text faq-text-a'><span className='a'>A</span>Reef-safe sunscreen something and to swim in! Don't forget lots and lots of business cards.! Don't forget lots and lots of business cards.</div>
+                  <div className='faq-text faq-text-a'><span className='a'>A</span>Reef-safe sunscreen something and to swim in! Don't forget lots and lots of business cards.</div>
                 </li>
                 <li className='faq-li'>
                   <div className='faq-text faq-text-q'><span className='q'>Q</span>What do I need to have before I go to the event?</div>
