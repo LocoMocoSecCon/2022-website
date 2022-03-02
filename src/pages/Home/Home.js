@@ -83,7 +83,7 @@ export default function Home() {
                       Sun
                     </div>
                     <div className='sizzle-bullet-desc'>
-                      You aren't the only one who has a little cabin fever! After being stuck indoors for almost two years, what could be a better place to travel to than Honolulu?
+                      You aren't the only one who has a little cabin fever! After being stuck indoors for almost two years, what could be a better place to visit than the shores of Waikīkī?
                     </div>
                   </div>
                 </div>
