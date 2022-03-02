@@ -48,7 +48,7 @@ export default function About() {
               <ul className='faq'>
                 <li className='faq-li'>
                   <div className='faq-text faq-text-q'><span className='q'>Q</span>What's the meaning behind Loco Moco Sec?</div>
-                  <div className='faq-text faq-text-a'><span className='a'>A</span>The “loco moco” is a dish that was first made in Hawaii. Similar to how the loco moco was named, we felt LocoMocoSec added a local flavor and sounded cool in non-Spanish contexts. https://kalanipkg.com/7-island-culture-history-of-the-loco-moco</div>
+                  <div className='faq-text faq-text-a'><span className='a'>A</span>The “loco moco” is a dish that was first made in Hawaiʻi. Similar to how the loco moco was named, we felt LocoMocoSec added a local flavor and sounded cool in non-Spanish contexts. https://kalanipkg.com/7-island-culture-history-of-the-loco-moco</div>
                 </li>
                 <li className='faq-li'>
                   <div className='faq-text faq-text-q'><span className='q'>Q</span>Are the meetings all day or will we have some downtime?</div>
@@ -68,7 +68,7 @@ export default function About() {
                 </li>
                 <li className='faq-li'>
                   <div className='faq-text faq-text-q'><span className='q'>Q</span>Do I need to bring any special items?</div>
-                  <div className='faq-text faq-text-a'><span className='a'>A</span>Sunscreen,your bathing suit / swim trunks! Don't forget lots and lots of business cards.</div>
+                  <div className='faq-text faq-text-a'><span className='a'>A</span>Reef-safe sunscreen something and to swim in! Don't forget lots and lots of business cards.</div>
                 </li>
                 <li className='faq-li'>
                   <div className='faq-text faq-text-q'><span className='q'>Q</span>What do I need to have before I go to the event?</div>
@@ -79,8 +79,8 @@ export default function About() {
                   <div className='faq-text faq-text-a'><span className='a'>A</span>There’s an area in the ticketing/registration process asking if you have any dietary requirements. Please complete this form so we can account for your dietary requirement.</div>
                 </li>
                 <li className='faq-li'>
-                  <div className='faq-text faq-text-q'><span className='q'>Q</span>Can my spouses and children come with me to Hawaii?</div>
-                  <div className='faq-text faq-text-a'><span className='a'>A</span>Yes!!! And we encourage it because…… Hawaii is awesome.</div>
+                  <div className='faq-text faq-text-q'><span className='q'>Q</span>Can my spouses and children come with me to Hawaiʻi?</div>
+                  <div className='faq-text faq-text-a'><span className='a'>A</span>Yes!!! And they are welcome at social events!</div>
                 </li>
                 <li className='faq-li'>
                   <div className='faq-text faq-text-q'><span className='q'>Q</span>Can my spouse and children come with me to the Loco Moco Sec Meetings and Events?</div>
@@ -104,7 +104,7 @@ export default function About() {
                 </li>
                 <li className='faq-li'>
                   <div className='faq-text faq-text-q'><span className='q'>Q</span>Who founded LocoMocoSec?</div>
-                  <div className='faq-text faq-text-a'><span className='a'>A</span>LocoMocoSec was founded by Neil Mattatal, Jim Manico, Jeremiah Grossman and Ron Perris in 2015.</div>
+                  <div className='faq-text faq-text-a'><span className='a'>A</span>LocoMocoSec was founded by Neil Matatall, Jim Manico, Jeremiah Grossman and Ron Perris in 2015.</div>
                 </li>
               </ul>
             </div>
