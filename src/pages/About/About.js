@@ -25,7 +25,7 @@ export default function About() {
 
           <div className='transparent-block-container'>
             <div className='transparent-block-title'>Conference Format</div>
-            <div className='transparent-block-text'>LocoMocoSec is a single-track conference. We expect to have over 200 attendees in our fourth year. Most of our attendees are security engineers, software engineers, or people that help run security programs ranging from managers to CISOs. We have added a remote participation this year.</div>
+            <div className='transparent-block-text'>LocoMocoSec is a single-track conference. We expect to have over 200 attendees in our fourth year. Most of our attendees are security engineers, software engineers, or people that help run security programs ranging from managers to CISOs.</div>
           </div>
 
 
