@@ -35,7 +35,8 @@ export default function Home() {
             </p>
 
             <div className="sizzle-bullets">
-                <div className='sizzle-bullet-item'>
+                <a className='sizzle-bullet-item'
+                  href='/agenda' rel="noopener noreferrer">
                   <div className='sizzle-icon'>
                     <img src={speaker} alt="speaker-logo"/>
                   </div>
@@ -47,8 +48,9 @@ export default function Home() {
                       We have some of the best product security speakers in the industry come to LocoMocoSec. In addition to the well known, who's who in the application security industry, our lineup also often has rising stars in the infosec space.
                     </div>
                   </div>
-                </div>
-                <div className='sizzle-bullet-item'>
+                </a>
+                <a className='sizzle-bullet-item'
+                  href='/training' rel="noopener noreferrer">
                   <div className='sizzle-icon'>
                     <img src={training} alt="training-logo"/>
                   </div>
@@ -60,8 +62,9 @@ export default function Home() {
                       Come early and get training. Each year we strive to offer exceptional training courses meant to further your knowledge in all facets of security - whether you're a beginner or a seasoned veteran. 
                     </div>
                   </div>
-                </div>
-                <div className='sizzle-bullet-item'>
+                </a>
+                <a className='sizzle-bullet-item'
+                  href='/sponsors' rel="noopener noreferrer">
                   <div className='sizzle-icon'>
                     <img src={pig} alt="hands-on-logo"/>
                   </div>
@@ -73,8 +76,9 @@ export default function Home() {
                       Each year we roll out the red carpet and provide excellent meals to feed hungry attendees. Come for the food, stay for the conversation and the company.
                     </div>
                   </div>
-                </div>
-                <div className='sizzle-bullet-item'>
+                </a>
+                <a className='sizzle-bullet-item'
+                  href='/venue' rel="noopener noreferrer">
                   <div className='sizzle-icon'>
                     <img src={sun} alt="competitions-logo"/>
                   </div>
@@ -86,7 +90,7 @@ export default function Home() {
                       You aren't the only one who has a little cabin fever! After being stuck indoors for almost two years, what could be a better place to visit than the shores of Waikīkī?
                     </div>
                   </div>
-                </div>
+                </a>
               </div>
 
           </div>
