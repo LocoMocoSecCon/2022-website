@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e092c4e2.css",
-    "main.js": "/static/js/main.01394e9e.js",
+    "main.js": "/static/js/main.5f465281.js",
     "static/js/787.276297fb.chunk.js": "/static/js/787.276297fb.chunk.js",
     "static/media/sunset.jpeg": "/static/media/sunset.7078119e0190ede00edd.jpeg",
     "static/media/sven.png": "/static/media/sven.0cd11f3dd4b516b90b0e.png",
@@ -9,18 +9,20 @@
     "static/media/loco-moco-large-removebg-preview.png": "/static/media/loco-moco-large-removebg-preview.c5e75eb743ee2947020a.png",
     "static/media/kostas.png": "/static/media/kostas.eb0aa7d12b89744bb98f.png",
     "static/media/loco-moco-horizontal.png": "/static/media/loco-moco-horizontal.a9a016f0292b149f80a4.png",
+    "static/media/philippe.jpeg": "/static/media/philippe.b983b051df1b37351499.jpeg",
     "static/media/marriott.jpeg": "/static/media/marriott.ee7c87bfecaa56369737.jpeg",
     "static/media/sun.png": "/static/media/sun.f794832ad72b90c61eb7.png",
+    "static/media/seth.jpeg": "/static/media/seth.b1a2c60d8394ce679f14.jpeg",
     "static/media/speaker.png": "/static/media/speaker.f2b289f7d555ff049aa3.png",
     "static/media/training.png": "/static/media/training.8cd9fa9e972dccad74e6.png",
     "static/media/pig.png": "/static/media/pig.b259facc2a6d0760cb03.png",
     "index.html": "/index.html",
     "main.e092c4e2.css.map": "/static/css/main.e092c4e2.css.map",
-    "main.01394e9e.js.map": "/static/js/main.01394e9e.js.map",
+    "main.5f465281.js.map": "/static/js/main.5f465281.js.map",
     "787.276297fb.chunk.js.map": "/static/js/787.276297fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e092c4e2.css",
-    "static/js/main.01394e9e.js"
+    "static/js/main.5f465281.js"
   ]
 }
