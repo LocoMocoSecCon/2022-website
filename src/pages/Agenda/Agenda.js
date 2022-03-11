@@ -30,10 +30,9 @@ export default function Agenda() {
           <div className='transparent-block-container'>
             <div className='transparent-block-title'>Wednesday, June 29, 2022</div> 
             <div className='agenda-day-header'>Conference</div>
-            <li className='transparent-block-text'>Continental Breakfast</li>
+            <li className='transparent-block-text'>Continental Breakfast and Coffee/ Tea Station</li>
             <li className='transparent-block-text'>Hospitality / Registration Desk</li>
             <li className='transparent-block-text'>General Session</li>
-            <li className='transparent-block-text'>AM/PM Coffee Break</li>
             <li className='transparent-block-text'>Lunch</li>
             <li className='transparent-block-text'>Group Offsite Experience</li>
           </div>
@@ -41,10 +40,9 @@ export default function Agenda() {
           <div className='transparent-block-container'>
             <div className='transparent-block-title'>Thursday, June 30, 2022</div>
             <div className='agenda-day-header'>Conference</div>
-            <li className='transparent-block-text'>Continental Breakfast</li>
+            <li className='transparent-block-text'>Continental Breakfast and Coffee/ Tea Station</li>
             <li className='transparent-block-text'>Hospitality / Registration Desk</li>
             <li className='transparent-block-text'>General Session</li>
-            <li className='transparent-block-text'>AM/PM Coffee Break</li>
             <li className='transparent-block-text'>Lunch</li>
             <li className='transparent-block-text'>Conference Conclusion</li>
           </div>
