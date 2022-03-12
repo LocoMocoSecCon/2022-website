@@ -1,8 +1,20 @@
 import React from 'react';
+import keynotes from '../../content/keynotes';
+import speakers from '../../content/speakers';
 import './Agenda.css';
 
-
 export default function Agenda() {
+
+  let speakerList = [];
+
+  speakers.forEach(obj => {
+    obj.speaker.forEach(speaker => {
+      speakerList.push(speaker);
+    });
+  });
+
+  // console.log(speakerList);
+
   return (
     <div className='sub-page'>
 

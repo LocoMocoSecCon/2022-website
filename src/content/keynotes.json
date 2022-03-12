@@ -1,0 +1,57 @@
+[{
+    "title": "This is a super interesting talk",
+    "speaker": [{
+      "name": "Adam Schaal",
+      "speaker_id": "AdamSchaal",
+      "company": "Contrast Security",
+      "twitter": "@clevernyyyy",
+      "github": "clevernyyyy",
+      "linkedin": "/in/adamschaal/",
+      "image": "adam.png",
+      "bio": "Adam is this guy, ya know."
+    }],
+    "talk_id": "interesting_talk",
+    "pdf": "",
+    "video": "",
+    "length": "",
+    "technical": "5",
+    "abstract": "This is a super interesting talk about super interesting stuff."
+  }, {
+    "title": "",
+    "speaker": [{
+      "name": "",
+      "speaker_id": "",
+      "company": "",
+      "twitter": "",
+      "github": "",
+      "linkedin": "",
+      "image": "",
+      "bio": ""
+    }],
+    "talk_id": "",
+    "pdf": "",
+    "video": "",
+    "length": "",
+    "technical": "",
+    "abstract": ""
+  },
+  {
+    "title": "",
+    "speaker": [{
+      "name": "",
+      "speaker_id": "",
+      "company": "",
+      "twitter": "",
+      "github": "",
+      "linkedin": "",
+      "image": "",
+      "bio": ""
+    }],
+    "talk_id": "",
+    "pdf": "",
+    "video": "",
+    "length": "",
+    "technical": "",
+    "abstract": ""
+  }
+]

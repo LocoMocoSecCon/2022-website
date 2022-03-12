@@ -14,3 +14,11 @@ After which, you browse to localhost:3000 to view the site.  Once development is
 docker-compose down
 ```
 
+
+## Adding Keynotes
+
+Please fill out the json located in `src/content/keynotes.json` and add pictures to `src/static/speakers`.
+
+## Adding Speakers
+
+Please fill out the json located in `src/content/speakers.json` and add pictures to `src/static/speakers`.
