@@ -133,6 +133,12 @@ body {
   .sub-page-title {
     font-size: 1.5em;
   }
+  .block-one-text {
+    flex-direction: column;
+  }
+  .block-availability {
+    display: block;
+  }
 }
 
 @media (min-width: 576px) {
@@ -159,6 +165,12 @@ body {
   }
   .sub-page-title {
     font-size: 3em;
+  }
+  .block-one-text {
+    flex-direction: row;
+  }
+  .block-availability {
+    display: inline;
   }
 }
 
