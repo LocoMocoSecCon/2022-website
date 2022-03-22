@@ -28,6 +28,11 @@
   width: 100%;
 }
 
+
+/* .left {
+  flex-direction: column;
+} */
+
 .left .hero-logo {
   width: 100%;
   padding-bottom: 30px;
@@ -115,4 +120,27 @@
   display: flex;
   width: 100%;
   justify-content: center;
+}
+
+#mc_embed_signup {
+  align-items: center;
+}
+
+
+/* 
+#mc_embed_signup .mc-field-group {
+  width: 45%;
+}
+
+#mc_embed_signup .mc-field-group input {
+  width: 40%;
+} */
+
+.sub-button {
+  display: flex;
+}
+
+.sub-btn {
+  color: white;
+  background-color: #ea7560b5 !important;
 }
