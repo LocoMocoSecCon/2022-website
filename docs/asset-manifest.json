@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.13cc28bd.css",
-    "main.js": "/static/js/main.23ab7a10.js",
+    "main.css": "/static/css/main.eab5b0b5.css",
+    "main.js": "/static/js/main.821f1c81.js",
     "static/js/787.276297fb.chunk.js": "/static/js/787.276297fb.chunk.js",
     "static/media/2022_Sponsorship_Packages_3.14.22.pdf": "/static/media/2022_Sponsorship_Packages_3.14.22.d84361ded944151f75f2.pdf",
     "static/media/sunset.jpeg": "/static/media/sunset.7078119e0190ede00edd.jpeg",
@@ -11,6 +11,8 @@
     "static/media/kostas.png": "/static/media/kostas.eb0aa7d12b89744bb98f.png",
     "static/media/loco-moco-horizontal.png": "/static/media/loco-moco-horizontal.a9a016f0292b149f80a4.png",
     "static/media/philippe.jpeg": "/static/media/philippe.b983b051df1b37351499.jpeg",
+    "static/media/Google.png": "/static/media/Google.d18b1651df189db9309d.png",
+    "static/media/Leviathan.png": "/static/media/Leviathan.267f513fb0e6851c6d29.png",
     "static/media/marriott.jpeg": "/static/media/marriott.ee7c87bfecaa56369737.jpeg",
     "static/media/sun.png": "/static/media/sun.f794832ad72b90c61eb7.png",
     "static/media/seth.jpeg": "/static/media/seth.b1a2c60d8394ce679f14.jpeg",
@@ -20,12 +22,12 @@
     "static/media/discernible.png": "/static/media/discernible.2dcc2c549c0723923982.png",
     "static/media/pig.png": "/static/media/pig.b259facc2a6d0760cb03.png",
     "index.html": "/index.html",
-    "main.13cc28bd.css.map": "/static/css/main.13cc28bd.css.map",
-    "main.23ab7a10.js.map": "/static/js/main.23ab7a10.js.map",
+    "main.eab5b0b5.css.map": "/static/css/main.eab5b0b5.css.map",
+    "main.821f1c81.js.map": "/static/js/main.821f1c81.js.map",
     "787.276297fb.chunk.js.map": "/static/js/787.276297fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13cc28bd.css",
-    "static/js/main.23ab7a10.js"
+    "static/css/main.eab5b0b5.css",
+    "static/js/main.821f1c81.js"
   ]
 }

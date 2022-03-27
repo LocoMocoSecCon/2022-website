@@ -43,9 +43,14 @@
   margin-block-start: 0px;
 }
 
-.block-logo {}
+.block-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
 
 .block-logo-img {
-  width: calc(100% - 40px);
-  margin: 0px 20px;
+  max-width: calc(90% - 3em);
+  /* margin: 0px 20px; */
 }

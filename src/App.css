@@ -139,6 +139,9 @@ body {
   .block-availability {
     display: block;
   }
+  .sub-button {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 576px) {
@@ -183,5 +186,8 @@ body {
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+  .sub-button {
+    flex-direction: row;
   }
 }
