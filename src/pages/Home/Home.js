@@ -10,27 +10,36 @@ import pig from '../../static/icons/pig.png';
 import sun from '../../static/icons/sun.png';
 import training from '../../static/icons/training.png';
 import speaker from '../../static/icons/speaker.png';
+import kym from '../../static/speakers/keynotes/kym.png';
+import coleen from '../../static/speakers/keynotes/coleen.png';
 
 export default function Home() {
   return (
     <div className='home-page'>
 
       <div className='col left'>
-      {/* <button id="eventbrite-widget-modal-trigger-268236260877" type="button">Buy Tickets</button> */}
-        <img src={logo} className='hero-logo' alt='locomocosec logo'/>
-        {/* <div id="mc_embed_signup" className='hero-logo'>
-          <form action="https://locomocosec.us15.list-manage.com/subscribe/post?u=d5dd58a923aa2f50c0394612e&amp;id=c356e93d5c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll">
-              <h2>Sign Up For Our Mailing List</h2>
-              <div style={{"position": "absolute", "left": "-5000px"}} aria-hidden="true">
-                <input type="text" name="b_d5dd58a923aa2f50c0394612e_c356e93d5c" tabindex="-1" value="" />
-              </div>
-              <div className="clear">
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button"/>
+        <div className='col-content'>
+          <img src={logo} className='hero-logo' alt='locomocosec logo'/>
+          <div className='sub-page-title'>Keynotes</div>
+          <div className='keynote-bubbles'>
+            <div className='keynote-bubble'>
+              <img src={kym} className='keynote-image' alt='Kymberlee Price'/>
+              <div className='keynote-text-content'>
+                <div className='keynote-name'>Kymberlee Price</div>
+                <div className='keynote-title'>Sr. Director of Product Security</div>
+                <div className='keynote-company'>New Relic</div>
               </div>
             </div>
-        </form>
-        </div> */}
+            <div className='keynote-bubble'>
+              <img src={coleen} className='keynote-image' alt='Coleen Coolidge'/>
+              <div className='keynote-text-content'>
+                <div className='keynote-name'>Coleen Coolidge</div>
+                <div className='keynote-title'>CISO</div>
+                <div className='keynote-company'>Twilio</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className='col right'>
