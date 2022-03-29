@@ -23,19 +23,19 @@ export default function Home() {
           <div className='sub-page-title'>Keynotes</div>
           <div className='keynote-bubbles'>
             <div className='keynote-bubble'>
-              <img src={kym} className='keynote-image' alt='Kymberlee Price'/>
-              <div className='keynote-text-content'>
-                <div className='keynote-name'>Kymberlee Price</div>
-                <div className='keynote-title'>Sr. Director of Product Security</div>
-                <div className='keynote-company'>New Relic</div>
-              </div>
-            </div>
-            <div className='keynote-bubble'>
               <img src={coleen} className='keynote-image' alt='Coleen Coolidge'/>
               <div className='keynote-text-content'>
                 <div className='keynote-name'>Coleen Coolidge</div>
                 <div className='keynote-title'>CISO</div>
                 <div className='keynote-company'>Twilio</div>
+              </div>
+            </div>
+            <div className='keynote-bubble'>
+              <img src={kym} className='keynote-image' alt='Kymberlee Price'/>
+              <div className='keynote-text-content'>
+                <div className='keynote-name'>Kymberlee Price</div>
+                <div className='keynote-title'>Sr. Director of Product Security</div>
+                <div className='keynote-company'>New Relic</div>
               </div>
             </div>
           </div>
