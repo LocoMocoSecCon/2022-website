@@ -5,6 +5,8 @@ import twilio from '../../static/logos/sponsors/twilio.png';
 import discernible from '../../static/logos/sponsors/discernible.png';
 import google from '../../static/logos/sponsors/Google.png';
 import leviathan from '../../static/logos/sponsors/Leviathan.png';
+import microsoft from '../../static/logos/sponsors/Microsoft.png';
+import scw from '../../static/logos/sponsors/SCW.png';
 
 export default function Sponsor() {
   let pdf = require('../../static/2022_Sponsorship_Packages_3.14.22.pdf');
@@ -207,6 +209,18 @@ export default function Sponsor() {
               target='_blank' rel='noopener noreferrer'
               className='block-logo'>
               <img src={leviathan} alt='Leviathan' className='block-logo-img'/>
+            </a>
+
+            <a href='https://www.microsoft.com/'
+              target='_blank' rel='noopener noreferrer'
+              className='block-logo'>
+              <img src={microsoft} alt='Microsoft' className='block-logo-img'/>
+            </a>
+
+            <a href='https://www.securecodewarrior.com/'
+              target='_blank' rel='noopener noreferrer'
+              className='block-logo'>
+              <img src={scw} alt='Secure Code Warrior' className='block-logo-img'/>
             </a>
 
           
