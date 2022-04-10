@@ -72,7 +72,7 @@ export default function About() {
                 </li>
                 <li className='faq-li'>
                   <div className='faq-text faq-text-q'><span className='q'>Q</span>What do I need to have before I go to the event?</div>
-                  <div className='faq-text faq-text-a'><span className='a'>A</span>Registration Ticket. Anyone traveling to Hawaill will need to register with Safe Travels Hawaiʻi.</div>
+                  <div className='faq-text faq-text-a'><span className='a'>A</span>Registration Ticket.</div>
                 </li>
                 <li className='faq-li'>
                   <div className='faq-text faq-text-q'><span className='q'>Q</span>How do I let you know about my special dietary requirements?</div>
