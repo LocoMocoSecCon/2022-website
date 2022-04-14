@@ -41,3 +41,10 @@
   display: flex;
   align-items: center;
 }
+
+.faq-anchor-tag {
+  margin: 0px 5px;
+  color: #ea7560;
+  display: contents;
+  text-decoration: underline;
+}

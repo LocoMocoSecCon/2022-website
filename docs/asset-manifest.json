@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f94cf8b.css",
-    "main.js": "/static/js/main.27a3ae25.js",
+    "main.css": "/static/css/main.9ec55481.css",
+    "main.js": "/static/js/main.4a425726.js",
     "static/js/787.276297fb.chunk.js": "/static/js/787.276297fb.chunk.js",
+    "static/media/Chenoa.jpeg": "/static/media/Chenoa.a0727b960c7c4945315f.jpeg",
     "static/media/coleen.png": "/static/media/coleen.4dace348930918cb5d4e.png",
     "static/media/kym.png": "/static/media/kym.caf9d2eeb8c6ed928b69.png",
     "static/media/2022_Sponsorship_Packages_3.14.22.pdf": "/static/media/2022_Sponsorship_Packages_3.14.22.d84361ded944151f75f2.pdf",
@@ -26,12 +27,12 @@
     "static/media/discernible.png": "/static/media/discernible.2dcc2c549c0723923982.png",
     "static/media/pig.png": "/static/media/pig.b259facc2a6d0760cb03.png",
     "index.html": "/index.html",
-    "main.2f94cf8b.css.map": "/static/css/main.2f94cf8b.css.map",
-    "main.27a3ae25.js.map": "/static/js/main.27a3ae25.js.map",
+    "main.9ec55481.css.map": "/static/css/main.9ec55481.css.map",
+    "main.4a425726.js.map": "/static/js/main.4a425726.js.map",
     "787.276297fb.chunk.js.map": "/static/js/787.276297fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f94cf8b.css",
-    "static/js/main.27a3ae25.js"
+    "static/css/main.9ec55481.css",
+    "static/js/main.4a425726.js"
   ]
 }

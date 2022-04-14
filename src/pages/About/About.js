@@ -106,6 +106,10 @@ export default function About() {
                   <div className='faq-text faq-text-q'><span className='q'>Q</span>Who founded LocoMocoSec?</div>
                   <div className='faq-text faq-text-a'><span className='a'>A</span>LocoMocoSec was founded by Neil Matatall, Jim Manico, Jeremiah Grossman and Ron Perris in 2015.</div>
                 </li>
+                <li className='faq-li'>
+                  <div className='faq-text faq-text-q'><span className='q'>Q</span>Who should I contact with travel needs?</div>
+                  <div className='faq-text faq-text-a'><span className='a'>A</span><a className='faq-anchor-tag' href='http://www.dalianes.com/' target="_blank" rel="noopener noreferrer">Dalianes Travel,</a> our LocoMocoSec Travel Agency. (707)443-2778. Please address your emails to both Deborah (debbie@dalianes.com) and Beverly (bev@dalianes.com).</div>
+                </li>
               </ul>
             </div>
           </div>

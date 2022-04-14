@@ -12,6 +12,7 @@ import training from '../../static/icons/training.png';
 import speaker from '../../static/icons/speaker.png';
 import kym from '../../static/speakers/keynotes/kym.png';
 import coleen from '../../static/speakers/keynotes/coleen.png';
+import chenoa from '../../static/speakers/keynotes/Chenoa.jpeg';
 
 export default function Home() {
   return (
@@ -22,6 +23,14 @@ export default function Home() {
           <img src={logo} className='hero-logo' alt='locomocosec logo'/>
           <div className='sub-page-title'>Keynotes</div>
           <div className='keynote-bubbles'>
+            <div className='keynote-bubble'>
+              <img src={chenoa} className='keynote-image' alt='Chenoa Farnsworth'/>
+              <div className='keynote-text-content'>
+                <div className='keynote-name'>Chenoa Farnsworth</div>
+                <div className='keynote-title'>Managing Partner</div>
+                <div className='keynote-company'>Blue Startups</div>
+              </div>
+            </div>
             <div className='keynote-bubble'>
               <img src={coleen} className='keynote-image' alt='Coleen Coolidge'/>
               <div className='keynote-text-content'>
