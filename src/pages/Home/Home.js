@@ -13,6 +13,8 @@ import speaker from '../../static/icons/speaker.png';
 import kym from '../../static/speakers/keynotes/kym.png';
 import coleen from '../../static/speakers/keynotes/coleen.png';
 import chenoa from '../../static/speakers/keynotes/Chenoa.jpeg';
+import jim from '../../static/speakers/keynotes/jim.jpeg';
+import dino from '../../static/speakers/keynotes/dino.webp';
 
 export default function Home() {
   return (
@@ -40,11 +42,27 @@ export default function Home() {
               </div>
             </div>
             <div className='keynote-bubble'>
+              <img src={dino} className='keynote-image' alt='Dino Dai Zovi'/>
+              <div className='keynote-text-content'>
+                <div className='keynote-name'>Dino Dai Zovi</div>
+                <div className='keynote-title'>Head of Security</div>
+                <div className='keynote-company'>Cash App at Square</div>
+              </div>
+            </div>
+            <div className='keynote-bubble'>
               <img src={kym} className='keynote-image' alt='Kymberlee Price'/>
               <div className='keynote-text-content'>
                 <div className='keynote-name'>Kymberlee Price</div>
                 <div className='keynote-title'>Sr. Director of Product Security</div>
                 <div className='keynote-company'>New Relic</div>
+              </div>
+            </div>
+            <div className='keynote-bubble'>
+              <img src={jim} className='keynote-image' alt='Jim Manico'/>
+              <div className='keynote-text-content'>
+                <div className='keynote-name'>Jim Manico</div>
+                <div className='keynote-title'>Founder and CEO</div>
+                <div className='keynote-company'>Manicode Security</div>
               </div>
             </div>
           </div>

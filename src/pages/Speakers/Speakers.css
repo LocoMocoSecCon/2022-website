@@ -1,0 +1,58 @@
+.speakers {
+  width: 100%;
+}
+
+.speaker-bubbles {
+  --speaker-width: 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.speaker-bubble {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+  border-top-left-radius: calc(var(--speaker-width) / 2);
+  border-bottom-left-radius: calc(var(--speaker-width) / 2);
+  border-top-right-radius: calc(var(--speaker-width) / 2);
+  border-bottom-right-radius: calc(var(--speaker-width) / 2);
+  margin: 20px 10px;
+  width: 350px;
+}
+
+.speaker-image {
+  border-radius: 50%;
+  object-fit: cover;
+  width: var(--speaker-width);
+  height: var(--speaker-width);
+}
+
+.speaker-name {
+  font-weight: 700;
+  font-size: 20px;
+  color: #333;
+}
+
+.speaker-title {
+  font-weight: 300;
+  letter-spacing: -1px;
+  font-size: 16px;
+}
+
+.speaker-company {
+  color: #272325;
+  font-size: .75em;
+  text-transform: uppercase;
+}
+
+.speaker-text-content {
+  color: #ea7560;
+  margin: 0px 10px;
+  padding: 10px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

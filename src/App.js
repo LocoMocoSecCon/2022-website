@@ -10,6 +10,7 @@ import Training from './pages/Training/Training';
 import Archives from './pages/Archives/Archives';
 import Agenda from './pages/Agenda/Agenda';
 import Safety from './pages/Safety/Safety';
+import Speakers from './pages/Speakers/Speakers';
 
 // import components
 import NavBar from './components/NavBar/NavBar';
@@ -52,8 +53,8 @@ function App() {
       "background": false,
   },
   {
-      "href": "https://sessionize.com/locomocosec-2022/",
-      "label": "CFS",
+      "href": "/speakers",
+      "label": "Speakers",
       "class": "nav-div-hover",
       "background": false,
   },
@@ -109,6 +110,7 @@ function App() {
                   <Route path='/training' element={<Training/>} />
                   <Route path='/archives' element={<Archives/>} />
                   <Route path='/safety' element={<Safety/>} />
+                  <Route path='/speakers' element={<Speakers/>} />
                 </Routes>
               </BrowserRouter>
             </div>

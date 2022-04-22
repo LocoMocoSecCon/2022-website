@@ -212,7 +212,7 @@ MOBILE
   position: fixed;
   width: 100%;
   display: flex;
-  margin-top: calc(var(--navbar-height) - 1px);
+  /* margin-top: calc(var(--navbar-height) - 4px); */
   z-index: 6;
 }
 
