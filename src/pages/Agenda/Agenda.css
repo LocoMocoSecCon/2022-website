@@ -1,3 +1,8 @@
 .agenda-day-header {
   color: #ea7560;
 }
+
+.agenda-session .sessionize-loader {
+  display: block !important;
+  position: relative;
+}

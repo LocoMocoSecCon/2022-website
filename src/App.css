@@ -8,6 +8,10 @@
   --hotel-dist: 6rem;
 }
 
+body .sessionize-loader {
+  display: none;
+}
+
 .app {
   display: flex;
   flex-direction: column;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import keynotes from '../../content/keynotes';
 import speakers from '../../content/speakers';
 import './Agenda.css';
@@ -13,7 +13,17 @@ export default function Agenda() {
     });
   });
 
-  // console.log(speakerList);
+
+  useEffect(() => {
+    const agenda = document.getElementsByClassName('sessionize-loader')[0];
+    console.log(agenda);
+    const agendaContainer = document.getElementsByClassName('agenda-session')[0];
+    setTimeout(()=>{
+      agendaContainer.appendChild(agenda);
+
+    }, 1000);
+  }, []);
+
 
   return (
     <div className='sub-page'>
@@ -59,6 +69,18 @@ export default function Agenda() {
             <li className='transparent-block-text'>Conference Conclusion</li>
           </div>
 
+          <div className='agenda-session'>
+
+
+          
+          
+          
+          
+          
+          
+          
+          </div>
+
         </div>
 
       </div>
@@ -67,3 +89,6 @@ export default function Agenda() {
 
   );
 }
+
+
+
