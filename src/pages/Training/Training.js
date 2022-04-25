@@ -52,7 +52,7 @@ export default function Training() {
           
           </div>
 
-
+{/* 
           <div className='transparent-block-container'>
             <div className='transparent-block-title'>iOS & ANDROID MOBILE SECURITY WORKSHOP</div>
             <div className='transparent-block-sub-title'>2 day workshop  ·  June 27-28<sup>th</sup></div>
@@ -68,7 +68,7 @@ export default function Training() {
               </div>
             </div>
           
-          </div>
+          </div> */}
 
 
           <div className='transparent-block-container'>
@@ -94,7 +94,7 @@ export default function Training() {
           
           </div>
 
-
+{/* 
 
           <div className='transparent-block-container'>
             <div className='transparent-block-title'>WEB & API SECURITY WORKSHOP</div>
@@ -111,7 +111,7 @@ export default function Training() {
               </div>
             </div>
           
-          </div>
+          </div> */}
 
         </div>
 
