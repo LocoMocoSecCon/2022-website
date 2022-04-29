@@ -206,8 +206,8 @@ export default function Speakers() {
                 <img src={travis} className='speaker-image' alt='Travis McPeak'/>
                 <div className='speaker-text-content'>
                   <div className='speaker-name'>Travis McPeak</div>
-                  <div className='speaker-title'>Security Leader</div>
-                  <div className='speaker-company'>Databricks</div>
+                  <div className='speaker-title'>Co-Founder & CEO</div>
+                  <div className='speaker-company'>Resourcely</div>
                 </div>
               </div>
 

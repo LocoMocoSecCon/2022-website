@@ -170,7 +170,7 @@ export default function Sponsor() {
 
             <div className='block-one'>
               <div className='block-one-title'>Diversity & Inclusion Sponsorships</div>
-              <div className='block-one-subtitle'>Sponsor travel and admission to members of underrepresented groups in the technical community. Residual funds will be donated to charity determined by the sponsor.</div>
+              <div className='block-one-subtitle'>Sponsor travel and admission to members of underrepresented groups in the technical community. Residual funds will be donated to a local charity.</div>
               <div className='block-one-subtitle'>Your sponsorship will cover the hotel, airfare, training, and conference admission for individuals from underrepresented or marginalized backgrounds.</div>
               <div className='block-one-text'>
                 <div className='block-one-cost'>
