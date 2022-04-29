@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.70382b52.css",
-    "main.js": "/static/js/main.171d4804.js",
+    "main.js": "/static/js/main.970d16fc.js",
     "static/js/787.276297fb.chunk.js": "/static/js/787.276297fb.chunk.js",
     "static/media/travis_mcpeak.jpeg": "/static/media/travis_mcpeak.ee7ad69c091760ebe9ea.jpeg",
     "static/media/colleen_dai.png": "/static/media/colleen_dai.924e2dbbd6ef9ad0075b.png",
@@ -22,6 +22,7 @@
     "static/media/serge_pastukhov.jpeg": "/static/media/serge_pastukhov.43ab5594a1f9a6d421f1.jpeg",
     "static/media/loco-moco-large-removebg-preview.png": "/static/media/loco-moco-large-removebg-preview.c5e75eb743ee2947020a.png",
     "static/media/kostas.png": "/static/media/kostas.eb0aa7d12b89744bb98f.png",
+    "static/media/RiskBasedSecurity.png": "/static/media/RiskBasedSecurity.e8c1a7691f9ff5e9a571.png",
     "static/media/art_maddalena.jpeg": "/static/media/art_maddalena.377dfd33a3103f7e75e3.jpeg",
     "static/media/loco-moco-horizontal.png": "/static/media/loco-moco-horizontal.a9a016f0292b149f80a4.png",
     "static/media/philippe.jpeg": "/static/media/philippe.b983b051df1b37351499.jpeg",
@@ -45,11 +46,11 @@
     "static/media/dino.webp": "/static/media/dino.ef807ef6199b8b7d65d2.webp",
     "index.html": "/index.html",
     "main.70382b52.css.map": "/static/css/main.70382b52.css.map",
-    "main.171d4804.js.map": "/static/js/main.171d4804.js.map",
+    "main.970d16fc.js.map": "/static/js/main.970d16fc.js.map",
     "787.276297fb.chunk.js.map": "/static/js/787.276297fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70382b52.css",
-    "static/js/main.171d4804.js"
+    "static/js/main.970d16fc.js"
   ]
 }

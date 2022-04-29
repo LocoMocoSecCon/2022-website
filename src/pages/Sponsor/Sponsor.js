@@ -7,6 +7,7 @@ import google from '../../static/logos/sponsors/Google.png';
 import leviathan from '../../static/logos/sponsors/Leviathan.png';
 import microsoft from '../../static/logos/sponsors/Microsoft.png';
 import scw from '../../static/logos/sponsors/SCW.png';
+import rbs from '../../static/logos/sponsors/RiskBasedSecurity.png';
 
 export default function Sponsor() {
   let pdf = require('../../static/2022_Sponsorship_Packages_3.14.22.pdf');
@@ -215,6 +216,12 @@ export default function Sponsor() {
               target='_blank' rel='noopener noreferrer'
               className='block-logo'>
               <img src={microsoft} alt='Microsoft' className='block-logo-img'/>
+            </a>
+
+            <a href='https://www.riskbasedsecurity.com/'
+              target='_blank' rel='noopener noreferrer'
+              className='block-logo'>
+              <img src={rbs} alt='Risk Based Security' className='block-logo-img'/>
             </a>
 
             <a href='https://www.securecodewarrior.com/'
