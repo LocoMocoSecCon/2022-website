@@ -4,7 +4,7 @@ import './Speakers.css';
 // import speakers
 import alex from '../../static/speakers/alex_smolen.png';
 import arshan from '../../static/speakers/arshan_dabirsiaghi.jpeg';
-import art from '../../static/speakers/art_maddalena.jpeg';
+import art from '../../static/speakers/this_is_fine.png';
 import chenoa from '../../static/speakers/keynotes/Chenoa.jpeg';
 import clint from '../../static/speakers/clint_gibler.jpeg';
 import coleen from '../../static/speakers/keynotes/coleen.png';
@@ -210,14 +210,6 @@ export default function Speakers() {
                   <div className='speaker-company'>Resourcely</div>
                 </div>
               </div>
-
-
-
-
-
-
-
-
 
           </div>
 

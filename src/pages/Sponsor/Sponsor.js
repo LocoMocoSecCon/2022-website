@@ -230,7 +230,6 @@ export default function Sponsor() {
               <img src={scw} alt='Secure Code Warrior' className='block-logo-img'/>
             </a>
 
-          
             <a href='https://www.twilio.com/'
               target='_blank' rel='noopener noreferrer'
               className='block-logo'>
