@@ -10,7 +10,7 @@ import scw from '../../static/logos/sponsors/SCW.png';
 import rbs from '../../static/logos/sponsors/RiskBasedSecurity.png';
 
 export default function Sponsor() {
-  let pdf = require('../../static/2022_Sponsorship_Packages_3.14.22.pdf');
+  let pdf = require('../../static/2022_Sponsorship_Packages.pdf');
 
   return (
     <div className='sub-page'>
