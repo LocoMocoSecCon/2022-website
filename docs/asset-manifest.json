@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.70382b52.css",
-    "main.js": "/static/js/main.f034d57a.js",
+    "main.js": "/static/js/main.a9bca6d4.js",
     "static/js/787.276297fb.chunk.js": "/static/js/787.276297fb.chunk.js",
     "static/media/travis_mcpeak.jpeg": "/static/media/travis_mcpeak.ee7ad69c091760ebe9ea.jpeg",
     "static/media/colleen_dai.png": "/static/media/colleen_dai.924e2dbbd6ef9ad0075b.png",
     "static/media/Chenoa.jpeg": "/static/media/Chenoa.a0727b960c7c4945315f.jpeg",
-    "static/media/2022_Sponsorship_Packages.pdf": "/static/media/2022_Sponsorship_Packages.2db4b7adcc5e5a798617.pdf",
+    "static/media/2022_SponsorshipPackages.pdf": "/static/media/2022_SponsorshipPackages.5fe679ea4badad77aacf.pdf",
     "static/media/coleen.png": "/static/media/coleen.4dace348930918cb5d4e.png",
     "static/media/jaroslav_lobacevski.jpeg": "/static/media/jaroslav_lobacevski.fa39fdefb065edc96837.jpeg",
     "static/media/kym.png": "/static/media/kym.caf9d2eeb8c6ed928b69.png",
@@ -46,11 +46,11 @@
     "static/media/dino.webp": "/static/media/dino.ef807ef6199b8b7d65d2.webp",
     "index.html": "/index.html",
     "main.70382b52.css.map": "/static/css/main.70382b52.css.map",
-    "main.f034d57a.js.map": "/static/js/main.f034d57a.js.map",
+    "main.a9bca6d4.js.map": "/static/js/main.a9bca6d4.js.map",
     "787.276297fb.chunk.js.map": "/static/js/787.276297fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70382b52.css",
-    "static/js/main.f034d57a.js"
+    "static/js/main.a9bca6d4.js"
   ]
 }
