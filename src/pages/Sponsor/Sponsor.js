@@ -34,11 +34,11 @@ export default function Sponsor() {
             <div className='transparent-block-text'>Please contact us at <a href='mailto:sponsors@locomocosec.com?Subject=Sponsorship' target='_top'>sponsors@locomocosec.com</a> to discuss your strategic partnership with LocoMocoSec!</div>
           </div>
 
-          <div className='transparent-block-container'>
+           <div className='transparent-block-container'>
             <div className='transparent-block-title'>Sponsorship Options</div>
-            <div className='transparent-block-text'>Below are our sponsorship levels, please do not hesitate to reach out if you have any questions.  Our sponsorship options are also available in <a href={pdf} rel='noopener noreferrer' download>pdf form</a>.</div>
+            <div className='transparent-block-text'>Our sponsorship options are also available in <a href={pdf} rel='noopener noreferrer' download>pdf form</a>.</div>
           </div>
-
+{/*
           <div className='transparent-block-container'>
             <div className='block-one'>
               <div className='block-one-title'>Video Recording Sponsorship <span className='block-availability'>(1 available)</span></div>
@@ -187,7 +187,7 @@ export default function Sponsor() {
             </div>
 
 
-          </div>
+          </div> */}
 
           <div className='transparent-block-container'>
             <div className='transparent-block-title'>Current Sponsors</div>
