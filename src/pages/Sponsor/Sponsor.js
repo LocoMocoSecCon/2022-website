@@ -8,6 +8,8 @@ import leviathan from '../../static/logos/sponsors/Leviathan.png';
 import microsoft from '../../static/logos/sponsors/Microsoft.png';
 import scw from '../../static/logos/sponsors/SCW.png';
 import rbs from '../../static/logos/sponsors/RiskBasedSecurity.png';
+import brex from '../../static/logos/sponsors/brex.png';
+import semgrep from '../../static/logos/sponsors/Semgrep.png';
 
 export default function Sponsor() {
   let pdf = require('../../static/2022_SponsorshipPackages.pdf');
@@ -194,6 +196,12 @@ export default function Sponsor() {
             <div className='transparent-block-text'>Thank you so much to our sponsors! LocoMocoSec wouldn't happen without them.</div>
           </div>
           <div className='transparent-block-container'>
+            <a href='https://www.brex.com/'
+              target='_blank' rel='noopener noreferrer'
+              className='block-logo'>
+              <img src={brex} alt='Brex' className='block-logo-img'/>
+            </a>
+
             <a href='https://discernibleinc.com/'
               target='_blank' rel='noopener noreferrer'
               className='block-logo'>
@@ -228,6 +236,12 @@ export default function Sponsor() {
               target='_blank' rel='noopener noreferrer'
               className='block-logo'>
               <img src={scw} alt='Secure Code Warrior' className='block-logo-img'/>
+            </a>
+
+            <a href='https://semgrep.dev/'
+              target='_blank' rel='noopener noreferrer'
+              className='block-logo'>
+              <img src={semgrep} alt='Semgrep' className='block-logo-img'/>
             </a>
 
             <a href='https://www.twilio.com/'
