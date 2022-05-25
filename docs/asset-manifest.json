@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.70382b52.css",
-    "main.js": "/static/js/main.a1ab8f6b.js",
+    "main.js": "/static/js/main.18c21903.js",
     "static/js/787.276297fb.chunk.js": "/static/js/787.276297fb.chunk.js",
     "static/media/travis_mcpeak.jpeg": "/static/media/travis_mcpeak.ee7ad69c091760ebe9ea.jpeg",
     "static/media/colleen_dai.png": "/static/media/colleen_dai.924e2dbbd6ef9ad0075b.png",
@@ -27,6 +27,7 @@
     "static/media/RiskBasedSecurity.png": "/static/media/RiskBasedSecurity.e8c1a7691f9ff5e9a571.png",
     "static/media/Semgrep.png": "/static/media/Semgrep.177f3ae94969dfcc75ec.png",
     "static/media/loco-moco-horizontal.png": "/static/media/loco-moco-horizontal.a9a016f0292b149f80a4.png",
+    "static/media/assetnote.png": "/static/media/assetnote.1f3fd737eb7859c7e856.png",
     "static/media/philippe.jpeg": "/static/media/philippe.b983b051df1b37351499.jpeg",
     "static/media/arshan_dabirsiaghi.jpeg": "/static/media/arshan_dabirsiaghi.986130d73c061780abe2.jpeg",
     "static/media/joe_rozner.jpeg": "/static/media/joe_rozner.9c332268a7aeeb68cfc7.jpeg",
@@ -48,11 +49,11 @@
     "static/media/dino.webp": "/static/media/dino.ef807ef6199b8b7d65d2.webp",
     "index.html": "/index.html",
     "main.70382b52.css.map": "/static/css/main.70382b52.css.map",
-    "main.a1ab8f6b.js.map": "/static/js/main.a1ab8f6b.js.map",
+    "main.18c21903.js.map": "/static/js/main.18c21903.js.map",
     "787.276297fb.chunk.js.map": "/static/js/787.276297fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70382b52.css",
-    "static/js/main.a1ab8f6b.js"
+    "static/js/main.18c21903.js"
   ]
 }

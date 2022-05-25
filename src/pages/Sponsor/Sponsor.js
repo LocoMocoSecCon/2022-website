@@ -10,6 +10,7 @@ import scw from '../../static/logos/sponsors/SCW.png';
 import rbs from '../../static/logos/sponsors/RiskBasedSecurity.png';
 import brex from '../../static/logos/sponsors/brex.png';
 import semgrep from '../../static/logos/sponsors/Semgrep.png';
+import assetnote from '../../static/logos/sponsors/assetnote.png';
 
 export default function Sponsor() {
   let pdf = require('../../static/2022_SponsorshipPackages.pdf');
@@ -196,6 +197,11 @@ export default function Sponsor() {
             <div className='transparent-block-text'>Thank you so much to our sponsors! LocoMocoSec wouldn't happen without them.</div>
           </div>
           <div className='transparent-block-container'>
+            <a href='https://assetnote.io/'
+              target='_blank' rel='noopener noreferrer'
+              className='block-logo'>
+              <img src={assetnote} alt='AssetNote' className='block-logo-img'/>
+            </a>
             <a href='https://www.brex.com/'
               target='_blank' rel='noopener noreferrer'
               className='block-logo'>
