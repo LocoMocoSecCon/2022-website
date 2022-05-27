@@ -42,7 +42,6 @@ export default function Venue() {
                 <ul>
                   <li>Please note that availability is limited so we encourage you to book as soon as possible.</li>
                   <li>The $50 resort fee will be reduced to $20 per day upon booking.</li>
-                  <li>The Hotel and the Conference welcomes you regardless of your vaccination status.  Anyone traveling into Hawaii will need to register with <a href='https://hawaiicovid19.com/travel/' target='_blank' rel='noopener noreferrer'>Safe Travels Hawaiʻi</a>.</li>
                 </ul>
               </div>
 
