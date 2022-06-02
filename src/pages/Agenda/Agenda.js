@@ -56,7 +56,7 @@ export default function Agenda() {
             <li className='transparent-block-text'>Hospitality / Registration Desk</li>
             <li className='transparent-block-text'>General Session</li>
             <li className='transparent-block-text'>Lunch</li>
-            <li className='transparent-block-text'>Group Offsite Experience</li>
+            {/* <li className='transparent-block-text'>Group Offsite Experience</li> */}
           </div>
 
           <div className='transparent-block-container'>
