@@ -37,14 +37,14 @@ export default function Agenda() {
             <div className='agenda-day-header'>Training Workshops</div>
             <li className='transparent-block-text'>Early Arrivals (throughout the Day)</li>
             <li className='transparent-block-text'>Hospitality / Registration Desk Open for Check in</li>
-            <li className='transparent-block-text'>2 Training Workshops</li>
+            <li className='transparent-block-text'>3 Training Workshops</li>
           </div>
 
           <div className='transparent-block-container'>
             <div className='transparent-block-title'>Tuesday, June 28, 2022</div>
             <div className='agenda-day-header'>Training Workshops</div>
             <li className='transparent-block-text'>Hospitality / Registration Desk Open for Check in and sponsorship set up</li>
-            <li className='transparent-block-text'>2 Training Workshops</li>
+            <li className='transparent-block-text'>3 Training Workshops</li>
             <li className='transparent-block-text'>Main Attendee Arrivals (throughout the day)</li>
             <li className='transparent-block-text'>Welcome Reception (at hotel)</li>
           </div>

@@ -32,23 +32,23 @@ export default function Venue() {
                 <div className='venue-hotel-phone'>(808) 922-6611</div>
               </div>
             </a>    
-          
+           
             <div className='transparent-block'>
               <div className='transparent-block-title'>Book Today!</div>
 
               <div className='transparent-block-sub-title'>We have a special Loco Moco Product Security Conference room block!</div>
-              <div className='transparent-block-text'>A special room rate and discounted resort fee has been negotiated for attendees of the LocoMoco Conference at the Waikiki Beach Marriott Resort and Spa.  The rate is available between June 23 – July 3, 2022.  Please <a href='https://www.marriott.com/event-reservations/reservation-link.mi?id=1645838463020&key=GRP&app=resvlink' target='_blank' rel='noopener noreferrer'>click the link</a> to reserve your hotel accommodations.</div>
+              <div className='transparent-block-text'>A special room rate and discounted resort fee has been negotiated for attendees of the LocoMoco Conference at the Waikiki Beach Marriott Resort and Spa.  The rate is available between June 23 – July 3, 2022.  If you would like to make a reservation at the Waikiki Beach Marriott Resort, please email your information to Registration@locomocosec.com by including your name, check in/check out dates, the number of guests in your room and bed type.</div>
               <div className='transparent-block-text'>
                 <ul>
                   <li>Please note that availability is limited so we encourage you to book as soon as possible.</li>
                   <li>The $50 resort fee will be reduced to $20 per day upon booking.</li>
                 </ul>
               </div>
-
+{/*
 
               <div className='sizzle-button-area'>
                 <PalmButton wording='Reserve' anchor link='https://www.marriott.com/event-reservations/reservation-link.mi?id=1645838463020&key=GRP&app=resvlink'/>
-              </div>
+              </div>*/}
 
               <div className='venue-hotel-map'>
                 <iframe title="map_of_prop" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.9306816834373!2d-157.8222765!3d21.274211299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c007270cf4e263b%3A0x17efa11682def01b!2sWaikiki%20Beach%20Marriott%20Resort%20%26%20Spa!5e0!3m2!1sen!2sus!4v1645081446376!5m2!1sen!2sus" width="100%" height="300" allowFullScreen="" loading="lazy"></iframe>

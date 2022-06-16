@@ -11,6 +11,7 @@ import rbs from '../../static/logos/sponsors/RiskBasedSecurity.png';
 import brex from '../../static/logos/sponsors/brex.png';
 import semgrep from '../../static/logos/sponsors/Semgrep.png';
 import assetnote from '../../static/logos/sponsors/assetnote.png';
+import snyk from '../../static/logos/sponsors/snyk.png';
 
 export default function Sponsor() {
   let pdf = require('../../static/2022_SponsorshipPackages.pdf');
@@ -248,6 +249,12 @@ export default function Sponsor() {
               target='_blank' rel='noopener noreferrer'
               className='block-logo'>
               <img src={semgrep} alt='Semgrep' className='block-logo-img'/>
+            </a>
+
+            <a href='https://snyk.io'
+              target='_blank' rel='noopener noreferrer'
+              className='block-logo'>
+              <img src={snyk} alt='Snyk' className='block-logo-img'/>
             </a>
 
             <a href='https://www.twilio.com/'
