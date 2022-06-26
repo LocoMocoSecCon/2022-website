@@ -4,7 +4,7 @@ import './Speakers.css';
 // import speakers
 import alex from '../../static/speakers/alex_smolen.png';
 import arshan from '../../static/speakers/arshan_dabirsiaghi.jpeg';
-import art from '../../static/speakers/this_is_fine.png';
+// import art from '../../static/speakers/this_is_fine.png';
 import chenoa from '../../static/speakers/keynotes/Chenoa.jpeg';
 import clint from '../../static/speakers/clint_gibler.jpeg';
 import coleen from '../../static/speakers/keynotes/coleen.png';
@@ -50,14 +50,14 @@ export default function Speakers() {
                   <div className='speaker-company'>Contrast Security</div>
                 </div>
               </div>
-              <div className='speaker-bubble'>
+{/*              <div className='speaker-bubble'>
                 <img src={art} className='speaker-image' alt='Art Maddalena'/>
                 <div className='speaker-text-content'>
                   <div className='speaker-name'>Art Maddalena</div>
                   <div className='speaker-title'>Lead of Forensics and Incident Response</div>
                   <div className='speaker-company'>Yahoo</div>
                 </div>
-              </div>
+              </div>*/}
               <div className='speaker-bubble'>
                 <img src={chenoa} className='speaker-image' alt='Chenoa Farnsworth'/>
                 <div className='speaker-text-content'>
