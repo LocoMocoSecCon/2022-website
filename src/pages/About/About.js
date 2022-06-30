@@ -28,6 +28,12 @@ export default function About() {
             <div className='transparent-block-text'>LocoMocoSec is a single-track conference. We expect to have over 200 attendees in our fourth year. Most of our attendees are security engineers, software engineers, or people that help run security programs ranging from managers to CISOs.</div>
           </div>
 
+          <div className='transparent-block-container'>
+            <div className='transparent-block-title'>Land Acknowledgement</div>
+            <div className='transparent-block-text'>As we convene, we acknowledge Hawaiʻi as an indigenous space where the descendants of the original people are kānaka ʻōiwi or Native Hawaiian. The ‘āina on which we gather is located in the ahupua‘a of Waikīkī, in the moku of Kona, on the mokupuni of O‘ahu, in the pae‘āina of Hawai‘i.</div>
+            <div className='transparent-block-text'>We recognize that her majesty Queen Lili‘uokalani yielded the Hawaiian Kingdom and these territories under duress and protest to the United States to avoid the bloodshed of her people, who are recognized in the Kingdom’s law and today as kānaka Maoli. We further recognize that generations of indigenous Hawaiians and their knowledge systems shaped Hawai‘i in a sustainable way that allow us to enjoy her gifts today.</div>
+            <div className='transparent-block-text'>For this, let us all be truly grateful.</div>
+          </div>
 
           <div className='transparent-block-container'>
             <div className='transparent-block-title'>Code of Conduct</div>
